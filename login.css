@@ -1,0 +1,164 @@
+/*
+    TAG (button, body, a, p)
+    Classe (.titulo .grupo)
+    Id (#btn-entrar)
+    Sletor (Tujo junto e misturado)
+*/
+.caixa-login{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border: 2px solid #000000;
+    margin-top: 90px;
+    padding: 29px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 100px;
+}
+
+.titulo-login {
+    text-align: center;
+    color: #DB062A;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+   
+
+.grupo {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input,
+#btn-entrar {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+
+#btn-entrar {
+    margin-top: 10px;
+    background-color:#ff0059;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#btn-entrar:hover {
+    background-color: #e2004f;
+    cursor: pointer;
+}
+
+.suporte a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.suporte :hover{
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+#btn-trabalhe-conosco{
+    estilizar
+}
+#btn-trabalhe-conosco {
+    width: 19%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+#btn-trabalhe-conosco {
+    margin-top: 10px;
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+#btn-trabalhe-conosco:hover {
+    background-color: #e2004f;
+    cursor: pointer;
+}
+
+#btn-esqueci-meu-login {
+width: 100%;
+padding: 10px;
+border: 2px solid #ddd;
+border-radius: 10px;
+}
+
+#btn-esqueci-meu-login {
+margin-top: 10px;
+background-color:#ff005d;
+border: none;
+color: #fff;
+font-weight: 600;
+}
+
+#btn-esqueci-meu-login:hover {
+background-color: #e2004f;
+cursor: pointer;
+}
+
+input,
+#btn-criar-nova-conta {
+width: 100%;
+padding: 10px;
+border: 2px solid #ddd;
+border-radius: 10px;
+}
+
+#btn-criar-nova-conta {
+margin-top: 10px;
+background-color: #ff006f;
+border: none;
+color: #fff;
+font-weight: 600;
+}
+
+#btn-criar-nova-conta:hover {
+background-color: #e2004f;
+cursor: pointer;
+}
+
+#btn-parcerias{
+    estilizar
+}
+#btn-parcerias {
+    width: 19%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+#btn-parcerias {
+    margin-top: 10px;
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+#btn-parcerias:hover {
+    background-color: #e2004f;
+    cursor: pointer;
+}
+
+#loading {
+    display: none;
+}
